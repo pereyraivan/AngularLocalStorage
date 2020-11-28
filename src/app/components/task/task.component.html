@@ -2,8 +2,8 @@
     <div class="card-header d-flex justify-content-between align-item-center ">
         {{task.titulo}}
         <div>
-            <button class="btn btn-primary" (click)="task.hide == !task.hide">
-                Mostrar detalle
+            <button class="btn btn-primary" (click)="task.hide = !task.hide">
+                Mostrar descripcion
             </button>
             <button class="btn btn-danger" (click)="deleteTask(task)">
                 Eliminar
